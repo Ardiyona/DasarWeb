@@ -1,0 +1,9 @@
+.tulisan_warna{
+    color: blue;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+.par1{
+    letter-spacing: 5px;
+    border-bottom: 1px solid black;
+}
