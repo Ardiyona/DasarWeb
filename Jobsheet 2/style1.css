@@ -1,20 +1,58 @@
 html, body{
     margin: 0;
     padding: 0;
+    color: white;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #ddd;
+    font-family: pixel;
+    background-color: #b86f50;
     line-height: 1.65;
     padding-bottom: 1000px;
+}
+
+h3, h2{
+    color: #664030;
 }
 
 .container-satu{
     width: 800px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: #e4a672;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.sidebar-satu{
+    background-color: #b86f507b;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    width: 145px;
+    padding: 0 15px 0 15px;
+}
+
+.sidebar-satu ul{
+    margin: auto;
+    display: inline-block;
+}
+
+.sidebar-satu a{
+    color: #664030;
+}
+
+.kolom-utama{
+    position: relative;
+    width: 380px;
+    padding: 0 15px 0 15px;
+}
+
+.sidebar-dua{
+    position: relative;
+    background-color: #b86f507b;
+    width: 145px;
+    padding: 0 15px 0 15px;
 }
