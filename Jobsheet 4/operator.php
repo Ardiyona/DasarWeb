@@ -60,4 +60,8 @@ $hasilTidakIdentik = $a !== $b;
 
 echo "Hasil Identik: {$hasilIdentik} <br>";
 echo "Hasil Tidak Identik: {$hasilTidakIdentik} <br>";
+
+$kursi = 45;
+$sisaKursi = (($kursi - 28) / $kursi) * 100;
+echo "Sisa kursi dalam bentuk persen: {$sisaKursi} <br>";
 ?>
