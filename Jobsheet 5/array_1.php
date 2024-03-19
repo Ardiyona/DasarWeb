@@ -10,6 +10,12 @@
         echo $Listdosen[2] . "<br>";
         echo $Listdosen[0] . "<br>";
         echo $Listdosen[1] . "<br>";
+
+        echo "<br>";
+
+        foreach ($Listdosen as $Dosen) {
+            echo $Dosen . "<br>";
+        }
         ?>
     </body>
 </html>
