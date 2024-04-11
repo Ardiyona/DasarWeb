@@ -16,7 +16,7 @@
 
                 if (mysqli_num_rows($result) > 0) {
                     $no = 1;
-                    echo "<table>";
+                    echo "table>";
                     echo "<tr><th>No</th><th>Nama</th><th>Jenis Kelamin</th>
                     <th>Alamat</th><th>No. Telp</th><th>Aksi</th></tr>";
                     while ($row = mysqli_fetch_array($result)) {
