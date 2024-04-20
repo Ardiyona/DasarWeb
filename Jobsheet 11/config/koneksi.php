@@ -1,6 +1,6 @@
 <?php
     // Koneksi ke database
-    $connect = mysqli_connect("localhost", "root", "", "prakwebdb");
+    $koneksi = mysqli_connect("localhost", "root", "", "prakwebdb");
 
     // Periksa koneksi
     if (mysqli_connect_errno()) {
