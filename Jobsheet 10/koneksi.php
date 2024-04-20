@@ -1,4 +1,5 @@
-<<?php
+<?php
+date_default_timezone_get("Asia/Jakarta");
     // Koneksi ke database
     $connect = mysqli_connect("localhost", "root", "", "prakwebdb");
 
